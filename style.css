@@ -72,3 +72,14 @@ footer {
   color: #666;
   line-height: 1.4;
 }
+
+.credit {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+.hidden {
+  display: none;
+}
