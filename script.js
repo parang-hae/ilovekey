@@ -54,7 +54,7 @@ function startQuiz() {
 }
 
 function showQuestion() {
-  questionEl.ineerHTML = questions[current];
+  questionEl.innerHTML = questions[current];
   optionsEl.innerHTML = "";
   options.forEach(opt => {
     const btn = document.createElement("button");
