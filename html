@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마음진단 테스트 💙</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="fonts/Cafe24Ssurround-v2.0.woff" as="font" type="font/woff" crossorigin>
+</head>
+<body>
+  <div class="container">
+    <h1>나를 사랑하는 첫걸음,<br>마음을 열어볼까요?</h1>
+    <button id="start-btn">마음진단 시작하기 💙</button>
+  </div>
+
+  <div id="quiz" class="hidden">
+    <h2 id="question"></h2>
+    <div id="options"></div>
+    <button id="next-btn">다음</button>
+  </div>
+
+  <div id="result" class="hidden">
+    <h2 id="result-title"></h2>
+    <p id="result-text"></p>
+    <p class="disclaimer">
+      본 자가검진은 정확한 진단을 내리기에는 어려움이 있으므로<br>
+      정확한 판단을 위해서는 정신건강의학과 전문의의 진료가 필요합니다.
+    </p>
+    <button id="restart-btn">다시 해보기</button>
+  </div>
+
+  <footer>
+    <p>출처: 박승진 외(2010). 한글판 우울증선별도구(PHQ-9)의 신뢰도와 타당도, 대한불안의학회지 6, 119-124.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
