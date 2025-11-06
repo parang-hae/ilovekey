@@ -1,9 +1,9 @@
 .container, #quiz, #result {
-  background: rgba(255, 255, 255, 0.6); /* 흰색 + 투명도 */
+  background: rgba(255, 255, 255, 0.4); /* 흰색 + 투명도 */
   border-radius: 20px;
   padding: 40px;
   max-width: 600px;
-  margin: 200px auto;
+  margin: 150px auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -25,12 +25,12 @@ body {
 }
 
 .container {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 h1 {
   color: #3E69AB;
-  font-size: 2em;
+  font-size: 1.3em;
   line-height: 1.5;
 }
 
@@ -62,7 +62,7 @@ button:hover {
   display: block;
   margin: 10px auto;
   background-color: #B7E5FF;
-  color: #333;
+  color: #3E69AB;
 }
 
 #options button:hover {
@@ -72,19 +72,19 @@ button:hover {
 footer {
   margin-top: 80px;
   font-size: 0.8em;
-  color: #777;
+  color: #83868a;
 }
 
 .disclaimer {
   margin-top: 20px;
   font-size: 0.9em;
-  color: #666;
+  color: #83868a;
   line-height: 1.4;
 }
 
 .credit {
-  font-size: 0.75rem;
-  color: #666;
+  font-size: 0.5rem;
+  color: #83868a;
   margin-top: 20px;
   text-align: center;
   line-height: 1.5;
