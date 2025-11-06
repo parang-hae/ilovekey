@@ -1,18 +1,5 @@
-body {
-  font-family: 'Cafe24Ssurround', sans-serif;
-  background-image: url('./images/background.png');
-  background-size: cover; /* 화면 꽉 채움 */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* 스크롤해도 고정 */
-  color: #333;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
 .container, #quiz, #result {
-  background: rgba(255, 255, 255, 0.8); /* 흰색 + 투명도 */
+  background: rgba(255, 255, 255, 0.9); /* 흰색 + 투명도 */
   border-radius: 20px;
   padding: 40px;
   max-width: 600px;
