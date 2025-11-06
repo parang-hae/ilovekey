@@ -92,3 +92,12 @@ function showResult() {
     `;
   }
 }
+
+
+function showResult(resultText) {
+  document.getElementById("question-section").classList.add("hidden");
+  document.getElementById("result").classList.remove("hidden");
+  document.getElementById("resultText").innerText = resultText;
+
+  document.getElementById("credit").classList.remove("hidden");
+}
