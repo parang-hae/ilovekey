@@ -3,7 +3,7 @@
   border-radius: 20px;
   padding: 40px;
   max-width: 600px;
-  margin: 150px auto;
+  margin: 180px auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -17,20 +17,20 @@
 
 body {
   font-family: 'Cafe24Ssurround', sans-serif;
-  background-color: #D9EDFC;
-  color: #333;
+  background-color: #c0e1fa;
+  color: #013257;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  margin-top: 150px;
+  margin-top: 180px;
 }
 
 h1 {
-  color: #3E69AB;
-  font-size: 1.3em;
+  color: #013257;
+  font-size: 1.4em;
   line-height: 1.5;
 }
 
@@ -62,11 +62,11 @@ button:hover {
   display: block;
   margin: 10px auto;
   background-color: #B7E5FF;
-  color: #3E69AB;
+  color: #013257;
 }
 
 #options button:hover {
-  background-color: #A2DBFF;
+  background-color: #88cffc;
 }
 
 footer {
