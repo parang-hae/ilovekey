@@ -17,7 +17,7 @@
 
 body {
   font-family: 'Cafe24Ssurround', sans-serif;
-  background-color: #c0e1fa;
+  background-color: #E6F4FF;
   color: #013257;
   text-align: center;
   margin: 0;
@@ -29,13 +29,13 @@ body {
 }
 
 h1 {
-  color: #013257;
+  color: #4A6FA5;
   font-size: 1.4em;
   line-height: 1.5;
 }
 
 button {
-  background-color: #FFD6E8;
+  background-color: #ffd6e8;
   border: none;
   border-radius: 20px;
   padding: 12px 25px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-  background-color: #FFBBD0;
+  background-color: #ffbad8;
 }
 
 .hidden {
