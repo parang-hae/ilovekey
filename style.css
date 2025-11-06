@@ -90,10 +90,3 @@ footer {
   margin-bottom: 25px;
   animation: float 3s ease-in-out infinite;
 }
-
-/* 살짝 떠오르는 듯한 애니메이션 */
-@keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
-  100% { transform: translateY(0); }
-}
