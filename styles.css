@@ -1,4 +1,4 @@
-body {
+"""body {
     background-color: #EAF6FA;
     font-family: 'Cafe24Ssurround', sans-serif;
     text-align: center;
@@ -27,4 +27,4 @@ button {
 button:hover {
     background-color: #FFC6D0;
 }
-.hidden { display: none; }
+.hidden { display: none; }"""
