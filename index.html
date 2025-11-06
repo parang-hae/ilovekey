@@ -1,36 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>간단 자가진단 테스트 (데모)</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마음진단 테스트 💙</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="fonts/Cafe24Ssurround.ttf" rel="stylesheet">
 </head>
 <body>
-<main class="container">
-  <h1>나의 요즘 상태는? — 간단 자가진단</h1>
-  <p class="lead">MBTI 스타일의 문항 선택 방식 — 2분 내 완료. 결과는 익명으로 계산됩니다.</p>
-
-  <section id="quiz" class="card">
-    <div id="q-container"></div>
-    <div class="controls">
-      <button id="prevBtn" class="btn" disabled>이전</button>
-      <button id="nextBtn" class="btn">다음</button>
+    <div class="container">
+        <h1>나를 사랑하는 첫걸음,<br>마음을 열어볼까요?</h1>
+        <button id="startBtn">마음진단 시작하기💙</button>
+        <div id="quiz" class="hidden"></div>
+        <div id="result" class="hidden"></div>
     </div>
-  </section>
-
-  <section id="result" class="card hidden">
-    <h2>결과</h2>
-    <div id="resultText"></div>
-    <div id="resource" class="resources"></div>
-    <button id="restartBtn" class="btn">다시해보기</button>
-  </section>
-
-  <footer>
-    <small>이 테스트는 간단한 자가진단이며, 전문가 진단을 대신하지 않습니다. 긴급한 상황이면 즉시 119 또는 지역 상담센터로 연락하세요.</small>
-  </footer>
-</main>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
