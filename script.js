@@ -72,9 +72,6 @@ function showResult() {
   quiz.classList.add("hidden");
   result.classList.remove("hidden");
 
-  <footer>
-    <p>출처: 박승진 외(2010). 한글판 우울증선별도구(PHQ-9)의 신뢰도와 타당도, 대한불안의학회지 6, 119-124.</p>
-  </footer>
   
   if (score <= 4) {
     resultTitle.textContent = "💙 마음이 건강합니다.";
