@@ -3,7 +3,7 @@
   border-radius: 20px;
   padding: 40px;
   max-width: 600px;
-  margin: 100px auto;
+  margin: 200px auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -17,7 +17,7 @@
 
 body {
   font-family: 'Cafe24Ssurround', sans-serif;
-  background-color: #E6F4FF;
+  background-color: #D9EDFC;
   color: #333;
   text-align: center;
   margin: 0;
@@ -25,12 +25,12 @@ body {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 h1 {
-  color: #273E61;
-  font-size: 1.8em;
+  color: #3E69AB;
+  font-size: 2em;
   line-height: 1.5;
 }
 
