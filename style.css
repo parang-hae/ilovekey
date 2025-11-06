@@ -1,5 +1,5 @@
 .container, #quiz, #result {
-  background: rgba(255, 255, 255, 0.9); /* 흰색 + 투명도 */
+  background: rgba(255, 255, 255, 0.6); /* 흰색 + 투명도 */
   border-radius: 20px;
   padding: 40px;
   max-width: 600px;
@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-  color: #4A6FA5;
+  color: #273E61;
   font-size: 1.8em;
   line-height: 1.5;
 }
@@ -83,7 +83,7 @@ footer {
 }
 
 .credit {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #666;
   margin-top: 20px;
   text-align: center;
