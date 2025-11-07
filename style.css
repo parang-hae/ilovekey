@@ -385,6 +385,6 @@ html, body {
   text-align: center;  /* 가운데 정렬 */
 }
 
-#credit.hidden .note { font-size: 0.7rem; color: #2f5c7d; }
-#credit.hidden .source { font-size: 0.65rem; color: #2f5c7d; }
-#credit.hidden .team { font-size: 0.7rem; font-weight: bold; color: #2f5c7d; }
+#credit.hidden .note { font-size: 0.7rem; color: #3b76a3; }
+#credit.hidden .source { font-size: 0.65rem; color: #3b76a3; text-align: left; }
+#credit.hidden .team { font-size: 0.7rem; font-weight: bold; color: #3b76a3; }
