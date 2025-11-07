@@ -121,7 +121,6 @@ function renderResult() {
         정신건강상담 1577-0199<br>
         청소년전화 1388<br>
         한국생명의전화 1588-9191
-        망설이지 말고 연락하세요.<br>당신은 혼자가 아닙니다.
       </div>
       <div style="text-align: center; margin-top: 10px;">
         망설이지 말고 연락하세요.<br>당신은 혼자가 아닙니다.
