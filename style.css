@@ -326,3 +326,26 @@ html, body {
   z-index: 10; /* 버튼을 맨 위로 올림 */
   pointer-events: auto; /* 클릭 허용 */
 }
+
+/* ✅ 모바일에서 선택지 버튼과 다음 버튼 폭 통일 */
+.option-btn,
+#next-btn {
+  width: 100% !important;
+  max-width: 360px !important;
+  display: block !important;
+  margin: 10px auto !important;
+  box-sizing: border-box !important;
+  -webkit-appearance: none;  /* iOS Safari 기본 버튼 스타일 제거 */
+  font-size: 16px !important; /* Safari 자동 확대 방지 */
+  line-height: 1.4 !important;
+}
+
+/* 선택지 버튼은 간격을 약간 줄임 */
+.option-btn {
+  padding: 14px 0 !important;
+}
+
+/* 다음 버튼은 약간의 위 여백 */
+#next-btn {
+  margin-top: 20px !important;
+}
