@@ -143,7 +143,7 @@ body #result {
   min-height: 70vh !important;
   margin: 30px auto !important;
   padding: 30px !important;
-  background: rgba(255,255,255,0.9) !important;
+  background: rgba(255,255,255,0.7) !important;
   border-radius: 20px !important;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
 }
