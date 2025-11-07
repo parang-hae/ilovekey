@@ -335,8 +335,6 @@ html, body {
   display: block !important;
   margin: 10px auto !important;
   box-sizing: border-box !important;
-  -webkit-appearance: none;  /* iOS Safari 기본 버튼 스타일 제거 */
-  font-size: 16px !important; /* Safari 자동 확대 방지 */
   line-height: 1.4 !important;
 }
 
