@@ -204,27 +204,6 @@ body {
   }
 }
 
-/* ✅ 흰 박스는 고정된 위치 유지 */
-.container,
-#quiz,
-#result {
-  width: 90%;
-  max-width: 400px;
-  background: #f5fafd;
-  border-radius: 20px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* 세로 가운데 */
-  align-items: center; /* 가로 가운데 */
-  padding: 40px 20px;
-  box-sizing: border-box;
-
-  min-height: 70vh;    /* 최소 높이는 유지 */
-  max-height: 95vh;    /* 상한선 여유롭게 증가 */
-  height: auto;        /* 콘텐츠에 맞춰 자동 조절 */
-}
-
 /* 기본 박스 */
 .container,
 #quiz,
@@ -256,7 +235,7 @@ body {
     padding: 30px 15px;  /* 패딩 조절 */
     margin: 40px auto;   /* 상하 여백 */
     min-height: 70vh;    /* 최소 높이 유지 */
-    max-height: 90vh;    /* 모바일 상한선 약간 낮게 */
+    max-height: 95vh;    /* 모바일 상한선 약간 낮게 */
     height: auto;        /* 콘텐츠에 맞춰 자동 증가 */
   }
 }
