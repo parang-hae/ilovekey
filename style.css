@@ -395,3 +395,24 @@ html, body {
 #credit .note { font-size: 0.8rem; color: #0f456e; text-align: left; }
 #credit .source { font-size: 0.65rem; color: #356b94; text-align: left; }
 #credit .team { font-size: 0.7rem; font-weight: bold; color: #356b94; }
+
+#restart-btn {
+  color: #00205c;
+  font-size: 1.5em;                /* 시작 버튼과 동일 */
+  font-weight: bold;
+  background: linear-gradient(135deg, #ffe3ee, #b7e5ff); /* 시작 버튼 배경 */
+  border: none;
+  border-radius: 30px;             /* 시작 버튼과 동일 */
+  padding: 12px 40px;              /* 높이는 조금 낮게, 폭은 동일 */
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-top: 40px;                /* 버튼 위 여백 */
+}
+
+#restart-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #ffd6e8, #88cffc); /* 시작 버튼 호버와 동일 */
+}
+
