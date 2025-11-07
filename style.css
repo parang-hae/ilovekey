@@ -204,16 +204,6 @@ body {
   }
 }
 
-/* ✅ 전체 중앙 정렬 구조 다시 잡기 */
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #dbefff; /* 기존 배경색 유지 */
-}
-
 /* ✅ 흰 박스는 고정된 위치 유지 */
 .container,
 #quiz,
@@ -258,35 +248,12 @@ button {
   text-align: center;
 }
 
-/* ✅ 기존 디자인 유지하면서 중앙 정렬만 적용 */
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  /* 세로 중앙 */
-  align-items: center;      /* 가로 중앙 */
-  min-height: 100vh;
-  margin: 0;
-}
-
 /* ✅ 모바일에서도 중앙 유지 (스크롤 최소화) */
 @media (max-width: 768px) {
   body {
     justify-content: flex-start; /* 너무 위로 올라가면 불편하니 */
     padding-top: 60px;           /* 약간 아래로 내림 */
   }
-}
-
-/* --- 화면 전환/숨김 정리 (반드시 style.css 맨 아래에 추가) --- */
-
-/* 모든 화면을 중앙에 겹치게 위치시키되 기본 디자인(색/크기)은 유지 */
-.container, #quiz, #result {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0 !important;
-  box-sizing: border-box;
-  /* 기존 background, padding, width 등은 이미 위에 정의되어 있으므로 그대로 유지됩니다 */
 }
 
 /* 숨김: 완전 제거 (pointer-events도 차단) */
@@ -296,10 +263,25 @@ body {
   pointer-events: none !important;
 }
 
-/* 보이는 요소는 pointer-events 허용 (명시적일 필요 없음) */
-/* 모바일에서 overflow로 스크롤 생기지 않게 */
-html, body {
-  height: 100%;
-  overflow: hidden;
+/* --- 화면 전환 정상 작동용 (덮어쓰기용) --- */
+.container, #quiz, #result {
+  position: static !important;  /* 절대 위치 해제 */
+  transform: none !important;
+  margin: 80px auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+/* 숨김은 display:none만 사용 */
+.hidden {
+  display: none !important;
+}
+
+/* 세로 스크롤은 허용, 가로 스크롤은 차단 */
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
