@@ -378,6 +378,6 @@ html, body {
 }
 
 #result p {
-  font-size: 1.2rem; /* 결과 문구 크기 키움 */
+  font-size: 0.9rem; /* 결과 문구 크기 키움 */
   line-height: 1.6;   /* 가독성 확보 */
 }
