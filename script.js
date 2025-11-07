@@ -88,6 +88,10 @@ function renderResult() {
   quiz.classList.add("hidden");
   result.classList.remove("hidden");
 
+// ✅ 시작 화면 완전히 숨기기
+  const startScreen = document.querySelector(".container");
+  if (startScreen) startScreen.classList.add("hidden");
+  
   // 결과 텍스트 결정
   let title = "";
   let message = "";
