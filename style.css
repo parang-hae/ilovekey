@@ -350,51 +350,6 @@ html, body {
   margin-top: 20px !important;
 }
 
-/* ✅ 선택지 클릭 전, 콘텐츠가 위로 붙는 현상 완전 수정 */
-body {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important; /* 화면 세로 중앙 정렬 */
-  align-items: center !important;
-  height: 100vh !important;
-  padding-top: 0 !important; /* 위 여백 제거 */
-}
-
-#quiz {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-  min-height: 100vh !important;
-  padding-top: 0 !important;
-}
-
-/* 📱 모바일에서도 동일하게 중앙 유지 */
-@media (max-width: 768px) {
-  body {
-    justify-content: center !important;
-    align-items: center !important;
-    padding-top: 0 !important;
-  }
-
-  #quiz {
-    justify-content: center !important;
-    align-items: center !important;
-    padding-top: 0 !important;
-  }
-}
-
-/* ✅ 문항 + 선택지가 화면 위에 붙는 문제 해결 */
-#quiz {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;  /* 세로 중앙 */
-  align-items: center !important;      /* 가로 중앙 */
-  min-height: 100vh !important;        /* 화면 전체 높이 기준으로 중앙 정렬 */
-  padding-bottom: 80px !important;     /* '다음' 버튼 공간 확보 */
-  box-sizing: border-box;
-}
-
 #question {
   display: block;
   text-align: justify;
