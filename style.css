@@ -373,11 +373,14 @@ html, body {
 
 /* 점수가 제목보다 위에 잘 보이도록 */
 #result h2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   margin-top: 0;
 }
 
 #result p {
-  font-size: 0.9rem; /* 결과 문구 크기 키움 */
+  font-size: 1.2rem; /* 결과 문구 크기 키움 */
   line-height: 1.6;   /* 가독성 확보 */
 }
+#credit hidden .note { font-size: 0.7rem; color: #284861; }
+#credit hidden .source { font-size: 0.65rem; color: #284861; }
+#credit hidden .team { font-size: 0.7rem; font-weight: bold; color: #284861; }
