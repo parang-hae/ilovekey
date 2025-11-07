@@ -293,7 +293,7 @@ html, body {
 
 /* ✅ 시작 화면의 '시작하기' 버튼 위치를 조금 아래로 내림 */
 #start-btn {
-  margin-top: 60px !important; /* 기본보다 아래로 60px 내림 */
+  margin-top: 50px !important; /* 기본보다 아래로 60px 내림 */
 }
 
 /* ✅ 선택지 버튼을 '다음' 버튼과 동일한 폭으로 강제 맞춤 */
