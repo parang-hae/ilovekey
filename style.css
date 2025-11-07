@@ -240,8 +240,12 @@ button {
 #quiz button {
   display: block;
   margin: 10px auto;
-  width: 80%;
+  width: 90%; /* 기존 80% → 90%로 확대 */
+  max-width: 360px; /* 너무 넓어지지 않도록 제한 */
+  padding: 14px 0;  /* 클릭 영역 확대 */
+  font-size: 1.05rem; /* 글자 크기 약간 키움 */
 }
+
 
 /* ✅ 결과 화면도 중앙 */
 #result {
