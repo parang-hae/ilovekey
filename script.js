@@ -61,7 +61,7 @@ function showQuestion() {
     btn.className = "option-btn";
     btn.textContent = opt.text;
     if (current === 4 || current === 6) { 
-      btn.style.fontSize = "0.85rem"; // 원하는 크기로
+      btn.style.fontSize = "0.8rem"; // 원하는 크기로
     } else {
       btn.style.fontSize = "1rem";    // 기본 크기
     }
