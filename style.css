@@ -360,58 +360,5 @@ html, body {
   margin: 0 auto 20px;
 }
 
-/* ✅ 문항과 선택지가 위로 붙는 현상 교정 */
-#quiz {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important; /* 세로 중앙 정렬 */
-  align-items: center !important;     /* 가로 중앙 정렬 */
-  min-height: 100vh !important;
-  box-sizing: border-box;
-  padding-top: 40px !important;       /* 살짝 아래로 내림 */
-  padding-bottom: 80px !important;    /* 다음 버튼 공간 확보 */
-}
-
-/* ✅ 선택지 컨테이너 레이아웃 안정화 */
-#options {
-  display: block !important;          /* flex 해제 */
-  text-align: center !important;
-}
-
-/* ✅ 문항·선택지가 위로 붙는 문제 최종 수정 */
-body {
-  display: block !important;         /* 전체 body의 flex 중앙 정렬 해제 */
-  margin: 0;
-  padding: 0;
-  background: #f0f7ff;
-}
-
-/* ✅ 흰색 박스 중앙 정렬 (화면 기준 중앙) */
-.container,
-#quiz,
-#result {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important; /* 세로 가운데 정렬 */
-  align-items: center !important;     /* 가로 가운데 정렬 */
-  width: 90%;
-  max-width: 400px;
-  margin: 60px auto !important;       /* 화면 중간 배치 */
-  min-height: calc(100vh - 120px) !important; /* 위아래 균등 공간 */
-  background: #f5fafd;
-  border-radius: 20px;
-  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-  padding: 40px 20px;
-  box-sizing: border-box;
-}
-
-/* ✅ 모바일에서 자연스러운 여백 유지 */
-@media (max-width: 768px) {
-  .container,
-  #quiz,
-  #result {
-    margin: 40px auto !important;
-    min-height: calc(100vh - 100px) !important;
-    padding: 28px 20px;
   }
 }
