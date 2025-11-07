@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  margin-top: 180px;
+  margin-top: 100px;
 }
 
 h1 {
@@ -102,4 +102,8 @@ footer {
 
 #start-btn {
   color: #4A6FA5;
+}
+
+#next-btn {
+  color: #4A6FA5; /* 원하는 색상으로 변경 */
 }
