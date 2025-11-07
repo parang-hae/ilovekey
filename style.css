@@ -102,6 +102,21 @@ footer {
 
 #start-btn {
   color: #4A6FA5;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ffe3ee, #b7e5ff);
+  border: none;
+  border-radius: 30px;
+  padding: 16px 40px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease; 
+}
+
+#start-btn:hover {
+  transform: translateY(-3px);      /* 살짝 떠오르는 효과 */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #ffd6e8, #88cffc);
 }
 
 #next-btn {
