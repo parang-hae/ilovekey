@@ -330,7 +330,7 @@ html, body {
 /* ✅ 선택지 버튼 및 다음 버튼 스타일 (중앙정렬 + 높이 자동) */
 .option-btn,
 #next-btn {
-  width: 90%;                 /* 100% → 90% (양쪽 여백 확보) */
+  width: 10%;                 /* 100% → 90% (양쪽 여백 확보) */
   max-width: 360px;           /* 유지 */
   display: block;
   margin: 8px auto 0;         /* auto로 수직 중앙 정렬 막기 */
