@@ -29,8 +29,8 @@ body {
 }
 
 h1 {
-  color: #4A6FA5;
-  font-size: 1.4em;
+  color: #013257;
+  font-size: 1.6em;
   line-height: 1.5;
 }
 
@@ -101,5 +101,5 @@ footer {
 }
 
 #start-btn {
-  color: #013257;
+  color: #4A6FA5;
 }
