@@ -60,6 +60,12 @@ function showQuestion() {
     const btn = document.createElement("button");
     btn.className = "option-btn";
     btn.textContent = opt.text;
+    if (current === 4 || current === 6) { 
+      btn.style.fontSize = "0.85rem"; // 원하는 크기로
+    } else {
+      btn.style.fontSize = "1rem";    // 기본 크기
+    }
+
     btn.addEventListener("click", () => {
       selectOption(opt.value);
     });
