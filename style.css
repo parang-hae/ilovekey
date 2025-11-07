@@ -327,25 +327,27 @@ html, body {
   pointer-events: auto; /* 클릭 허용 */
 }
 
-/* ✅ 모바일에서 선택지 버튼과 다음 버튼 폭 통일 */
+/* ✅ 선택지 버튼 및 다음 버튼 스타일 (중앙정렬 + 높이 자동) */
 .option-btn,
 #next-btn {
-  width: 100% !important;
-  max-width: 360px !important;
-  display: block !important;
-  margin: 10px auto !important;
-  box-sizing: border-box !important;
-  line-height: 1.4 !important;
+  width: 90%;                 /* 100% → 90% (양쪽 여백 확보) */
+  max-width: 360px;           /* 유지 */
+  display: block;
+  margin: 8px auto 0;         /* auto로 수직 중앙 정렬 막기 */
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 /* 선택지 버튼은 간격을 약간 줄임 */
 .option-btn {
-  padding: 14px 0 !important;
+  padding: 14px 0;
 }
 
 /* 다음 버튼은 약간의 위 여백 */
 #next-btn {
-  margin-top: 20px !important;
+  margin-top: 20px;
 }
 
 #question {
