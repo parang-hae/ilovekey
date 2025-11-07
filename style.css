@@ -270,6 +270,15 @@ h2 {
   text-align: center;
   overflow-y: auto;
   max-height: 90vh;
+  
+   display: flex;
+  flex-direction: column;
+  align-items: center;      /* 가로 중앙 */
+  justify-content: flex-start;  /* 세로는 위쪽에서 시작 */
+  padding-top: 50px;        /* 위쪽 여백 조절 */
+  padding-bottom: 30px;     /* 아래쪽 여백 */
+  box-sizing: border-box;
+}
 }
 
 /* ✅ 모바일에서도 중앙 유지 (스크롤 최소화) */
