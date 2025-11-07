@@ -54,24 +54,19 @@ function startQuiz() {
 }
 
 function showQuestion() {
-   if (current === 4 || current === 6) { 
-      questionEl.innerHTML = `<span style="font-size:0.8rem">${questions[current]}</span>`;
-  } else {
-    questionEl.innerHTML = questions[current];
+  questionEl.innerHTML = questions[current]; // 질문은 그대로
+  questionEl.classList.remove("small-question"); // 이전 클래스 제거
+  if (current === 4 || current === 6) { 
+    questionEl.classList.add("small-question"); // 5,7번만 클래스 추가
   }
-  
+
   optionsEl.innerHTML = "";
   options.forEach(opt => {
     const btn = document.createElement("button");
     btn.className = "option-btn";
     btn.textContent = opt.text;
-
-    btn.style.fontSize = "1rem";
-
-    
-    btn.addEventListener("click", () => {
-      selectOption(opt.value);
-    });
+    btn.style.fontSize = "1rem"; // 선택지는 항상 1rem
+    btn.addEventListener("click", () => selectOption(opt.value));
     optionsEl.appendChild(btn);
   });
 }
