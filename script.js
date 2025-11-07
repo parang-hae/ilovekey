@@ -113,11 +113,20 @@ function renderResult() {
     message = "당신의 마음이 많이 지쳐있어요.<br>믿을 수 있는 사람과 대화를 나눠보세요.";
   } else {
     title = "💧 높은 우울감";
-    message = `전문의와의 상담이 필요합니다.<br>
-      지금 바로 전문기관과 연결해드릴게요.<br>
-      자살예방상담 109<br>정신건강상담 1577-0199<br>
-      청소년전화 1388<br>한국생명의전화 1588-9191<br>
-      망설이지 말고 연락하세요. 당신은 혼자가 아닙니다.`;
+    message = `
+      <div style="text-align: center;">전문의와의 상담이 필요합니다.</div>
+      <div style="text-align: left; margin-top: 10px;">
+        지금 바로 전문기관과 연결해드릴게요.<br>
+        자살예방상담 109<br>
+        정신건강상담 1577-0199<br>
+        청소년전화 1388<br>
+        한국생명의전화 1588-9191
+        망설이지 말고 연락하세요.<br>당신은 혼자가 아닙니다.
+      </div>
+      <div style="text-align: center; margin-top: 10px;">
+        망설이지 말고 연락하세요.<br>당신은 혼자가 아닙니다.
+      </div>
+    `;
   }
 
   if (resultTitle) 
