@@ -346,3 +346,38 @@ html, body {
   max-width: 340px;
   margin: 0 auto 20px;
 }
+
+/* ✅ 긴 문항 대응: 박스가 내용에 따라 자연스럽게 늘어나도록 수정 */
+.container,
+#quiz,
+#result {
+  display: block !important;           /* flex 정렬 해제 → 높이 자동 조절됨 */
+  height: auto !important;
+  min-height: auto !important;
+  padding: 40px 20px !important;
+  margin: 40px auto !important;
+  width: 90% !important;
+  max-width: 400px !important;
+  background: #f5fafd !important;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1) !important;
+  box-sizing: border-box !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start !important;  /* 👈 화면 맨 위에서부터 배치 */
+  padding-top: 60px;                       /* 적당히 여백 */
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .container,
+  #quiz,
+  #result {
+    margin: 20px auto !important;
+    padding: 30px 15px !important;
+  }
+}
