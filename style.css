@@ -171,10 +171,10 @@ html, body {
 }
 
 body {
-  display: block;
-  margin: 0;
-  padding: 0;
-  background: #E6F4FF /* 배경색이 있다면 유지 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container {
@@ -345,4 +345,25 @@ html, body {
   width: 100%;
   max-width: 340px;
   margin: 0 auto 20px;
+}
+
+/* ✅ 결과 화면 문구가 위로 붙거나 잘릴 때 해결 */
+#result {
+  display: block !important;          /* flex 해제 */
+  text-align: center !important;      /* 가운데 정렬 유지 */
+  padding: 40px 20px !important;      /* 내부 여백 충분히 */
+  overflow-y: auto !important;        /* 길어질 경우 스크롤 허용 */
+  height: auto !important;            /* 내용에 맞게 높이 늘어남 */
+  min-height: 70vh !important;        /* 기본 높이는 유지 */
+}
+
+/* 결과 제목, 점수, 메시지 사이 간격 */
+#result h2, #result p {
+  margin-bottom: 20px !important;
+}
+
+/* 점수가 제목보다 위에 잘 보이도록 */
+#result h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
 }
