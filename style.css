@@ -296,14 +296,24 @@ html, body {
   margin-top: 60px !important; /* 기본보다 아래로 60px 내림 */
 }
 
-/* ✅ JS로 생성된 선택지 버튼 크기 조정 */
+/* ✅ 선택지 버튼을 '다음' 버튼과 동일한 폭으로 강제 맞춤 */
+#options button,
 .option-btn {
-  width: 100% !important;         /* 가로 꽉 채움 */
-  max-width: 360px !important;    /* 다음 버튼과 동일 폭 */
+  width: 100% !important;
+  max-width: 360px !important;  /* '다음' 버튼과 동일 폭 */
   display: block !important;
-  margin: 10px auto !important;   /* 가운데 정렬 */
-  padding: 14px 0 !important;     /* 클릭 영역 확대 */
+  margin: 10px auto !important;
+  padding: 14px 0 !important;
   font-size: 1.05rem !important;
+  border-radius: 20px !important;
   box-sizing: border-box !important;
 }
 
+#options {
+  width: 100%;
+  max-width: 360px; /* 버튼과 동일 폭 */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 중앙 정렬 */
+}
