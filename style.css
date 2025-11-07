@@ -394,7 +394,7 @@ html, body {
 
 #credit .note { font-size: 0.8rem; color: #0f456e; text-align: left; }
 #credit .source { font-size: 0.65rem; color: #356b94; text-align: left; }
-#credit .team { font-size: 0.7rem; font-weight: bold; color: #356b94; }
+#credit .team { font-size: 0.75rem; font-weight: bold; color: #356b94; }
 
 #restart-btn {
   color: #00205c;
