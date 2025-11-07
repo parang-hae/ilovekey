@@ -75,25 +75,25 @@ button:hover {
 }
 
 #options button:hover {
-  background-color: #88cffc;
+  background-color: #7ac8fa;
 }
 
 footer {
   margin-top: 80px;
   font-size: 0.8em;
-  color: #83868a;
+  color: #4f5c6e;
 }
 
 .disclaimer {
   margin-top: 20px;
   font-size: 0.9em;
-  color: #83868a;
+  color: #4f5c6e;
   line-height: 1.4;
 }
 
 .credit {
-  font-size: 0.5rem;
-  color: #83868a;
+  font-size: 0.6rem;
+  color: #4f5c6e;
   margin-top: 20px;
   text-align: center;
   line-height: 1.5;
@@ -111,7 +111,7 @@ footer {
 
 #start-btn {
   color: #00205c;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
   background: linear-gradient(135deg, #ffe3ee, #b7e5ff);
   border: none;
