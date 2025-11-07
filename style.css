@@ -347,15 +347,6 @@ html, body {
   margin: 0 auto 20px;
 }
 
-/* ✅ 결과 화면 문구가 위로 붙거나 잘릴 때 해결 */
-#result {
-  display: block !important;          /* flex 해제 */
-  text-align: center !important;      /* 가운데 정렬 유지 */
-  padding: 40px 20px !important;      /* 내부 여백 충분히 */
-  overflow-y: auto !important;        /* 길어질 경우 스크롤 허용 */
-  height: auto !important;            /* 내용에 맞게 높이 늘어남 */
-  min-height: 70vh !important;        /* 기본 높이는 유지 */
-}
 
 /* 결과 제목, 점수, 메시지 사이 간격 */
 #result h2, #result p {
