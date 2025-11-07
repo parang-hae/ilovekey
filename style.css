@@ -377,10 +377,14 @@ html, body {
   margin-top: 0;
 }
 
-#result p {
-  font-size: 1.2rem; /* 결과 문구 크기 키움 */
-  line-height: 1.6;   /* 가독성 확보 */
+#resultText {
+  font-size: 1.1rem;   /* 글자 크기 조절 */
+  line-height: 1.6;    /* 줄 간격 */
+  color: #0f456e;      /* 원하는 색상 */
+  margin-bottom: 20px; /* 아래 여백 */
+  text-align: center;  /* 가운데 정렬 */
 }
-#credit hidden .note { font-size: 0.7rem; color: #284861; }
-#credit hidden .source { font-size: 0.65rem; color: #284861; }
-#credit hidden .team { font-size: 0.7rem; font-weight: bold; color: #284861; }
+
+#credit hidden .note { font-size: 0.7rem; color: #2f5c7d; }
+#credit hidden .source { font-size: 0.65rem; color: #2f5c7d; }
+#credit hidden .team { font-size: 0.7rem; font-weight: bold; color: #2f5c7d; }
