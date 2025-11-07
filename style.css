@@ -378,13 +378,13 @@ html, body {
 }
 
 #resultText {
-  font-size: 1.15rem;   /* 글자 크기 조절 */
+  font-size: 1.1rem;   /* 글자 크기 조절 */
   line-height: 1.6;    /* 줄 간격 */
   color: #0f456e;      /* 원하는 색상 */
   margin-bottom: 20px; /* 아래 여백 */
   text-align: center;  /* 가운데 정렬 */
 }
 
-#credit .note { font-size: 0.7rem; color: #599ccf; }
-#credit .source { font-size: 0.65rem; color: #599ccf; text-align: left; }
-#credit .team { font-size: 0.7rem; font-weight: bold; color: #599ccf; }
+#credit .note { font-size: 0.8rem; color: #0f456e; }
+#credit .source { font-size: 0.65rem; color: #356b94; text-align: left; }
+#credit .team { font-size: 0.7rem; font-weight: bold; color: #356b94; }
