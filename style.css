@@ -1,9 +1,9 @@
 .container, #quiz, #result {
   background: rgba(255, 255, 255, 0.7); /* 흰색 + 투명도 */
   border-radius: 20px;
-  padding: 40px;
-  max-width: 600px;
-  margin: 300px auto;
+  padding: 30px;
+  max-width: 90%;
+  margin: 100px auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
