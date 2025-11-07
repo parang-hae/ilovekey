@@ -268,6 +268,8 @@ h2 {
 /* ✅ 결과 화면도 중앙 */
 #result {
   text-align: center;
+  overflow-y: auto;
+  max-height: 90vh;
 }
 
 /* ✅ 모바일에서도 중앙 유지 (스크롤 최소화) */
@@ -385,6 +387,6 @@ html, body {
   text-align: center;  /* 가운데 정렬 */
 }
 
-#credit .note { font-size: 0.8rem; color: #0f456e; }
+#credit .note { font-size: 0.8rem; color: #0f456e; text-align: left; }
 #credit .source { font-size: 0.65rem; color: #356b94; text-align: left; }
 #credit .team { font-size: 0.7rem; font-weight: bold; color: #356b94; }
