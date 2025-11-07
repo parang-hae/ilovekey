@@ -115,7 +115,7 @@ function renderResult() {
   }
 
   if (resultTitle) 
- resultTitle.innerHTML = `<strong>${score}점</strong> ${title}`;
+ resultTitle.innerHTML = `<strong>${score}점<br></strong> ${title}`;
   resultTextEl.innerHTML = message;
 
   const credit = document.getElementById("credit");
