@@ -276,4 +276,30 @@ body {
   }
 }
 
+/* --- 화면 전환/숨김 정리 (반드시 style.css 맨 아래에 추가) --- */
+
+/* 모든 화면을 중앙에 겹치게 위치시키되 기본 디자인(색/크기)은 유지 */
+.container, #quiz, #result {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 !important;
+  box-sizing: border-box;
+  /* 기존 background, padding, width 등은 이미 위에 정의되어 있으므로 그대로 유지됩니다 */
+}
+
+/* 숨김: 완전 제거 (pointer-events도 차단) */
+.hidden {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* 보이는 요소는 pointer-events 허용 (명시적일 필요 없음) */
+/* 모바일에서 overflow로 스크롤 생기지 않게 */
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
 
