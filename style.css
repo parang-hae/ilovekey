@@ -148,21 +148,6 @@ body #result {
   box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
 }
 
-/* ✅ 모바일에서 흰 박스 꽉 차게 + 글자 너무 위로 안 가게 */
-@media (max-width: 768px) {
-  .container,
-  #quiz,
-  #result {
-    width: 100vw !important;
-    max-width: 100vw !important;
-    margin: 60px auto 20px !important;  /* 👈 위로 여백 60px 주기 */
-    border-radius: 16px !important;     /* 살짝 둥근 모서리 유지 */
-    padding: 28px 20px !important;      /* 안쪽 여백 충분히 */
-    background: rgba(255, 255, 255, 0.7) !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important; /* 입체감 복원 */
-  }
-}
-
 /* —— 화면 중앙 정렬용 —— */
 html, body {
   height: 100%;
@@ -266,21 +251,6 @@ h2 {
   font-size: 1.05rem; /* 글자 크기 약간 키움 */
 }
 
-
-/* ✅ 결과 화면도 중앙 */
-#result {
-  text-align: center;
-  overflow-y: auto;
-  max-height: 90vh;
-  
-   display: flex;
-  flex-direction: column;
-  align-items: stretch;      /* 가로 중앙 */
-  justify-content: flex-start;  /* 세로는 위쪽에서 시작 */
-  padding: 50px 20px 30px 20px;
-  box-sizing: border-box;
-}
-
 /* ✅ 모바일에서도 중앙 유지 (스크롤 최소화) */
 @media (max-width: 768px) {
   body {
@@ -374,6 +344,28 @@ html, body {
   width: 100%;
   max-width: 340px;
   margin: 0 auto 20px;
+}
+
+/* ✅ 결과 화면 */
+#result {
+  width: 90%;
+  max-width: 400px;
+  margin: 60px auto 20px;       /* 위 60px, 아래 20px 여백 */
+  padding: 50px 20px 30px 20px; /* 위 50px, 아래 30px */
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* 세로 위쪽 정렬 */
+  align-items: center;          /* 가로 중앙 정렬 */
+
+  text-align: center;
+  overflow-y: auto;
+  max-height: 90vh;
+
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 #question.small-question {
