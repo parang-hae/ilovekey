@@ -54,18 +54,17 @@ function startQuiz() {
 }
 
 function showQuestion() {
-  questionEl.innerHTML = questions[current];
+   if (current === 4 || current === 6) { 
+      questionEl.innerHTML = `<span style="font-size:0.8rem">${questions[current]}</span>`;
+  } else {
+    questionEl.innerHTML = questions[current];
+  }
+  
   optionsEl.innerHTML = "";
   options.forEach(opt => {
     const btn = document.createElement("button");
     btn.className = "option-btn";
     btn.textContent = opt.text;
-    if (current === 4 || current === 6) { 
-      btn.style.fontSize = "0.8rem"; // 원하는 크기로
-    } else {
-      btn.style.fontSize = "1rem";    // 기본 크기
-    }
-
     btn.addEventListener("click", () => {
       selectOption(opt.value);
     });
