@@ -110,7 +110,7 @@ footer {
 }
 
 #start-btn {
-  color: #4A6FA5;
+  color: #00205c;
   font-size: 1.3em;
   font-weight: bold;
   background: linear-gradient(135deg, #ffe3ee, #b7e5ff);
@@ -129,5 +129,5 @@ footer {
 }
 
 #next-btn {
-  color: #4A6FA5; /* 원하는 색상으로 변경 */
+  color: #00205c; /* 원하는 색상으로 변경 */
 }
