@@ -377,3 +377,14 @@ html, body {
     max-width: 340px;
   }
 }
+
+/* ✅ 문제 문항만 왼쪽 정렬로 */
+#quiz h2,
+#question {
+  text-align: left !important;
+  width: 100%;
+  max-width: 360px;
+  line-height: 1.6;
+  word-break: keep-all; /* 단어 중간 끊김 방지 */
+  margin: 0 auto 20px auto;
+}
