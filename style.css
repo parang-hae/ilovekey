@@ -273,10 +273,9 @@ h2 {
   
    display: flex;
   flex-direction: column;
-  align-items: center;      /* 가로 중앙 */
+  align-items: stretch;      /* 가로 중앙 */
   justify-content: flex-start;  /* 세로는 위쪽에서 시작 */
-  padding-top: 50px;        /* 위쪽 여백 조절 */
-  padding-bottom: 30px;     /* 아래쪽 여백 */
+  padding: 50px 20px 30px 20px;
   box-sizing: border-box;
 }
 
