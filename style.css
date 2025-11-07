@@ -171,10 +171,10 @@ html, body {
 }
 
 body {
-  display: flex;
-  justify-content: center; /* 가로 가운데 */
-  align-items: center;     /* 세로 가운데 */
-  flex-direction: column;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: #E6F4FF /* 배경색이 있다면 유지 */
 }
 
 .container {
