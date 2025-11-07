@@ -361,3 +361,21 @@ html, body {
   max-width: 360px;
   margin: 0 auto 20px;
 }
+
+/* ✅ 문항과 선택지가 위로 붙는 현상 교정 */
+#quiz {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important; /* 세로 중앙 정렬 */
+  align-items: center !important;     /* 가로 중앙 정렬 */
+  min-height: 100vh !important;
+  box-sizing: border-box;
+  padding-top: 40px !important;       /* 살짝 아래로 내림 */
+  padding-bottom: 80px !important;    /* 다음 버튼 공간 확보 */
+}
+
+/* ✅ 선택지 컨테이너 레이아웃 안정화 */
+#options {
+  display: block !important;          /* flex 해제 */
+  text-align: center !important;
+}
