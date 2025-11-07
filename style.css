@@ -289,3 +289,14 @@ html, body {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+/* ✅ 퀴즈 선택지 버튼을 '다음 버튼'과 동일한 폭으로 */
+#options button {
+  width: 100% !important;          /* 부모 컨테이너 기준으로 꽉 채움 */
+  max-width: 360px !important;     /* #next-btn의 폭과 일치 */
+  margin: 10px auto !important;    /* 가운데 정렬 유지 */
+  display: block !important;
+  padding: 14px 0 !important;      /* 클릭 영역 동일 */
+  font-size: 1.05rem !important;
+}
+
