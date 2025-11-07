@@ -128,3 +128,5 @@ function renderResult() {
   font-size: 1.05rem !important;
   box-sizing: border-box !important;
 }
+
+console.log("JS 로드 완료 ✅");
