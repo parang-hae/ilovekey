@@ -346,3 +346,13 @@ html, body {
   max-width: 340px;
   margin: 0 auto 20px;
 }
+
+/* ✅ 박스 높이를 콘텐츠에 맞게 자동 조절 */
+.container,
+#quiz,
+#result {
+  min-height: auto !important;   /* 고정 높이 해제 */
+  height: auto !important;       /* 콘텐츠에 따라 높이 늘어남 */
+  justify-content: flex-start !important; /* 세로 가운데 정렬 해제, 위에서부터 쌓이게 */
+  align-items: center !important;         /* 가로는 그대로 중앙 */
+}
