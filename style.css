@@ -183,3 +183,13 @@ body {
   top: 0;
   transform: none;
 }
+
+/* —— 박스 안 콘텐츠(제목 + 버튼) 중앙 정렬 —— */
+.container {
+  display: flex;
+  flex-direction: column;     /* 세로로 배치 */
+  justify-content: center;    /* 세로 가운데 */
+  align-items: center;        /* 가로 가운데 */
+  height: 100%;               /* 내용이 박스 전체 차지하게 */
+  text-align: center;         /* 텍스트도 중앙 정렬 */
+}
