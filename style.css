@@ -373,6 +373,11 @@ html, body {
 
 /* 점수가 제목보다 위에 잘 보이도록 */
 #result h2 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin-top: 0;
+}
+
+#result p {
+  font-size: 1.2rem; /* 결과 문구 크기 키움 */
+  line-height: 1.6;   /* 가독성 확보 */
 }
