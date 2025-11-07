@@ -190,9 +190,11 @@ body {
 #result {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* 세로 가운데 정렬 */
+  justify-content: flex-start;  /* 세로 가운데 정렬 */
   align-items: center;     /* 가로 가운데 정렬 */
-  min-height: 70vh;        /* 너무 위에 붙지 않도록 박스 내부 여백 확보 */
+  min-height: 70vh;
+  padding: 40px 20px;           /* 공통 padding */
+  box-sizing: border-box;
 }
 
 /* 📱 모바일에서도 동일하게 유지 */
