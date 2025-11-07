@@ -375,8 +375,8 @@ html, body {
 }
 
 #question.small-question {
-  font-size: 1.25rem;
-  line-height: 1.4;
+  font-size: 1.7rem;
+  line-height: 1.5;
 }
 
 /* 결과 제목, 점수, 메시지 사이 간격 */
