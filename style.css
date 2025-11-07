@@ -338,16 +338,12 @@ html, body {
 }
 
 #question {
-  display: block;
-  text-align: justify;
+  text-align: justify !important;
   text-justify: inter-word;
-  white-space: pre-line;     /* <br> 유지하면서 줄바꿈 반영 */
+  white-space: pre-line;
   line-height: 1.6;
   word-break: keep-all;
   width: 100%;
-  max-width: 360px;
+  max-width: 340px;
   margin: 0 auto 20px;
-}
-
-  }
 }
