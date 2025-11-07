@@ -300,3 +300,8 @@ html, body {
   font-size: 1.05rem !important;
 }
 
+/* ✅ 시작 화면의 '시작하기' 버튼 위치를 조금 아래로 내림 */
+#start-btn {
+  margin-top: 40px !important; /* 기본보다 아래로 40px 내림 */
+}
+
