@@ -378,7 +378,7 @@ html, body {
 }
 
 #resultText {
-  font-size: 1.2rem;   /* 글자 크기 조절 */
+  font-size: 1.15rem;   /* 글자 크기 조절 */
   line-height: 1.6;    /* 줄 간격 */
   color: #0f456e;      /* 원하는 색상 */
   margin-bottom: 20px; /* 아래 여백 */
