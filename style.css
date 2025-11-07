@@ -350,41 +350,21 @@ html, body {
   margin-top: 20px !important;
 }
 
-/* ✅ 모바일 환경에서 문항·선택지가 화면 가운데 유지되도록 조정 */
-@media (max-width: 768px) {
-  #quiz {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  /* 세로 가운데 정렬 */
-    align-items: center;      /* 가로 가운데 정렬 */
-    min-height: 100vh;        /* 전체 화면 기준으로 중앙 배치 */
-    box-sizing: border-box;
-    padding-bottom: 80px;     /* 다음 버튼 나올 공간 확보 */
-  }
-
-  #question {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .option-btn {
-    width: 100%;
-    max-width: 340px;
-  }
-
-  #next-btn {
-    width: 100%;
-    max-width: 340px;
-  }
+/* ✅ 초기 화면(선택지 클릭 전)에 문항+선택지가 너무 위로 올라가는 현상 수정 */
+#quiz {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important; /* 세로 중앙 정렬 */
+  align-items: center !important;     /* 가로 중앙 정렬 */
+  min-height: 100vh !important;       /* 화면 꽉 채움 */
+  box-sizing: border-box !important;
+  padding-top: 60px !important;       /* 👈 살짝 아래로 내림 (조정 가능: 40~80px) */
 }
 
-/* ✅ 문제 문항만 왼쪽 정렬로 */
-#quiz h2,
-#question {
-  text-align: left !important;
-  width: 100%;
-  max-width: 360px;
-  line-height: 1.6;
-  word-break: keep-all; /* 단어 중간 끊김 방지 */
-  margin: 0 auto 20px auto;
+/* 📱 모바일에서도 동일하게 중앙 유지 */
+@media (max-width: 768px) {
+  #quiz {
+    min-height: 100vh !important;
+    padding-top: 80px !important; /* 모바일에서는 조금 더 내림 */
+  }
 }
