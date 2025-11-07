@@ -279,7 +279,6 @@ h2 {
   padding-bottom: 30px;     /* 아래쪽 여백 */
   box-sizing: border-box;
 }
-}
 
 /* ✅ 모바일에서도 중앙 유지 (스크롤 최소화) */
 @media (max-width: 768px) {
