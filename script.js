@@ -117,3 +117,14 @@ function renderResult() {
   const credit = document.getElementById("credit");
   if (credit) credit.classList.remove("hidden");
 }
+
+/* ✅ JS로 생성된 선택지 버튼 크기 조정 */
+.option-btn {
+  width: 100% !important;         /* 가로 꽉 채움 */
+  max-width: 360px !important;    /* 다음 버튼과 동일 폭 */
+  display: block !important;
+  margin: 10px auto !important;   /* 가운데 정렬 */
+  padding: 14px 0 !important;     /* 클릭 영역 확대 */
+  font-size: 1.05rem !important;
+  box-sizing: border-box !important;
+}
