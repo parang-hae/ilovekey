@@ -107,7 +107,7 @@ function renderResult() {
     message = "현재의 마음 상태는 안정적이에요. 잘하고 계세요.";
   } else if (score <= 9) {
     title = "🌥️ 가벼운 우울";
-    message = "잠시 멈추고 자신에게 다정해질 시간을<br>가져보세요.";
+    message = "잠시 멈추고 자신에게 다정해질 시간을 가져보세요.";
   } else if (score <= 19) {
     title = "☁️ 중간 정도의 우울감";
     message = "당신의 마음이 많이 지쳐있어요.<br>믿을 수 있는 사람과 대화를 나눠보세요.";
