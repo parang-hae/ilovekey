@@ -203,3 +203,57 @@ body {
     min-height: 75vh; /* 화면 높이에 비례해 약간 더 확보 */
   }
 }
+
+/* ✅ 전체 중앙 정렬 구조 다시 잡기 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #dbefff; /* 기존 배경색 유지 */
+}
+
+/* ✅ 흰 박스는 고정된 위치 유지 */
+.container,
+#quiz,
+#result {
+  width: 90%;
+  max-width: 400px;
+  background: #f5fafd;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 세로 가운데 */
+  align-items: center; /* 가로 가운데 */
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* ✅ 제목과 버튼 위치 조정 */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: 15px;
+}
+
+/* ✅ 문제와 선택지도 가운데 */
+#quiz h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#quiz button {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+}
+
+/* ✅ 결과 화면도 중앙 */
+#result {
+  text-align: center;
+}
