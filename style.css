@@ -148,13 +148,17 @@ body #result {
   box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
 }
 
-/* 모바일 전용 */
+/* ✅ 모바일에서 흰 박스 꽉 차게 + 글자 너무 위로 안 가게 */
 @media (max-width: 768px) {
-  body .container,
-  body #quiz,
-  body #result {
-    width: 98vw !important;
-    margin: 16px auto !important;
-    padding: 20px 14px !important;
+  .container,
+  #quiz,
+  #result {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin: 60px auto 20px !important;  /* 👈 위로 여백 60px 주기 */
+    border-radius: 16px !important;     /* 살짝 둥근 모서리 유지 */
+    padding: 28px 20px !important;      /* 안쪽 여백 충분히 */
+    background: rgba(255, 255, 255, 0.85) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important; /* 입체감 복원 */
   }
 }
