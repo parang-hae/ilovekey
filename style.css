@@ -183,22 +183,3 @@ body {
   top: 0;
   transform: none;
 }
-
-/* ✅ 제목과 시작 버튼을 흰 상자(컨테이너) 안에서 정확히 가운데 배치 */
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* 세로 가운데 */
-  align-items: center;      /* 가로 가운데 */
-  min-height: 80vh;         /* 화면 기준 높이 확보 */
-  text-align: center;
-}
-
-/* 제목과 버튼 간격 */
-.container h1 {
-  margin-bottom: 24px;
-}
-
-.container #startBtn {
-  margin-top: 16px;
-}
