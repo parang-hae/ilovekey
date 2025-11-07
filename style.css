@@ -257,3 +257,21 @@ button {
 #result {
   text-align: center;
 }
+
+/* ✅ 기존 디자인 유지하면서 중앙 정렬만 적용 */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* 세로 중앙 */
+  align-items: center;      /* 가로 중앙 */
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* ✅ 모바일에서도 중앙 유지 (스크롤 최소화) */
+@media (max-width: 768px) {
+  body {
+    justify-content: flex-start; /* 너무 위로 올라가면 불편하니 */
+    padding-top: 60px;           /* 약간 아래로 내림 */
+  }
+}
