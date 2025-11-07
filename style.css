@@ -158,7 +158,7 @@ body #result {
     margin: 60px auto 20px !important;  /* 👈 위로 여백 60px 주기 */
     border-radius: 16px !important;     /* 살짝 둥근 모서리 유지 */
     padding: 28px 20px !important;      /* 안쪽 여백 충분히 */
-    background: rgba(255, 255, 255, 0.85) !important;
+    background: rgba(255, 255, 255, 0.7) !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important; /* 입체감 복원 */
   }
 }
