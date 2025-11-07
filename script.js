@@ -65,6 +65,10 @@ function showQuestion() {
     const btn = document.createElement("button");
     btn.className = "option-btn";
     btn.textContent = opt.text;
+
+    btn.style.fontSize = "1rem";
+
+    
     btn.addEventListener("click", () => {
       selectOption(opt.value);
     });
