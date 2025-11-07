@@ -138,14 +138,14 @@ footer {
 body .container,
 body #quiz,
 body #result {
-  width: 95vw;
-  max-width: 1200px;
+  width: 95vw !important;
+  max-width: 1200px !important;
   min-height: 70vh;
-  margin: 30px auto;
-  padding: 30px;
-  background: rgba(255,255,255,0.7);
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  margin: 30px auto !important;
+  padding: 30px !important;
+  background: rgba(255,255,255,0.7) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
 }
 
 /* ✅ 모바일에서 흰 박스 꽉 차게 + 글자 너무 위로 안 가게 */
