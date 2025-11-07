@@ -232,7 +232,7 @@ button {
 }
 
 /* ✅ 문제와 선택지도 가운데 */
-#quiz h2 {
+h2 {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -293,20 +293,7 @@ html, body {
 
 /* ✅ 시작 화면의 '시작하기' 버튼 위치를 조금 아래로 내림 */
 #start-btn {
-  margin-top: 50px !important; /* 기본보다 아래로 60px 내림 */
-}
-
-/* ✅ 선택지 버튼을 '다음' 버튼과 동일한 폭으로 강제 맞춤 */
-#options button,
-.option-btn {
-  width: 100% !important;
-  max-width: 360px !important;  /* '다음' 버튼과 동일 폭 */
-  display: block !important;
-  margin: 10px auto !important;
-  padding: 14px 0 !important;
-  font-size: 1.05rem !important;
-  border-radius: 20px !important;
-  box-sizing: border-box !important;
+  margin-top: 50px !important;
 }
 
 #options {
@@ -330,7 +317,7 @@ html, body {
 /* ✅ 선택지 버튼 및 다음 버튼 스타일 (중앙정렬 + 높이 자동) */
 .option-btn,
 #next-btn {
-  width: 10%;                 /* 100% → 90% (양쪽 여백 확보) */
+  width: 100%;                 /* 100% → 90% (양쪽 여백 확보) */
   max-width: 360px;           /* 유지 */
   display: block;
   margin: 8px auto 0;         /* auto로 수직 중앙 정렬 막기 */
