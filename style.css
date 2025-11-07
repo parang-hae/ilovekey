@@ -162,3 +162,24 @@ body #result {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important; /* 입체감 복원 */
   }
 }
+
+/* —— 화면 중앙 정렬용 —— */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* 가로 가운데 */
+  align-items: center;     /* 세로 가운데 */
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto !important; /* 기존 margin 무시 */
+  position: relative;
+  top: 0;
+  transform: none;
+}
