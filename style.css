@@ -3,8 +3,17 @@
   border-radius: 20px;
   padding: 30px;
   max-width: 90%;
-  margin: 100px auto;
+  margin: 80px auto;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 📱 모바일 화면용: 상자 크기 더 꽉 차게 */
+@media (max-width: 768px) {
+  .container, #quiz, #result {
+    margin: 40px 10px;   /* 위아래 여백 줄이고 좌우 꽉 채움 */
+    padding: 30px 15px;  /* 패딩도 약간 줄여서 공간 확보 */
+    max-width: 90%;      /* 거의 화면 전체 차지 */
+  }
 }
 
 @font-face {
