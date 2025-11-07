@@ -99,3 +99,7 @@ footer {
   margin-bottom: 25px;
   animation: float 3s ease-in-out infinite;
 }
+
+#start-btn {
+  color: #013257;
+}
