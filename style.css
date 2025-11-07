@@ -131,3 +131,28 @@ footer {
 #next-btn {
   color: #00205c; /* 원하는 색상으로 변경 */
 }
+
+/* —— 강제 적용용 (맨 아래에 붙이세요) —— */
+* { box-sizing: border-box; }
+
+body .container,
+body #quiz,
+body #result {
+  max-width: calc(100% - 24px) !important; /* 화면 거의 가득 채움 */
+  width: 100% !important;
+  margin: 24px auto !important;            /* 위/아래 여백 작게 */
+  padding: 20px 16px !important;           /* 내부 여백 안정화 */
+  background: rgba(255,255,255,0.85) !important; /* 좀 더 불투명하게 (원하면 0.7로) */
+  border-radius: 16px !important;
+}
+
+/* 모바일 전용(좁은 화면에서 더 꽉 차게) */
+@media (max-width: 768px) {
+  body .container,
+  body #quiz,
+  body #result {
+    max-width: 100% !important;
+    margin: 18px 8px !important;
+    padding: 18px 12px !important;
+  }
+}
