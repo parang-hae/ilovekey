@@ -103,11 +103,9 @@ function renderResult() {
   if (score <= 4) {
     title = "💙 정상";
     message = "현재의 마음 상태는 안정적이에요.<br>잘하고 계세요.";
-    document.getElementById("result").classList.remove("long-message");
   } else if (score <= 9) {
     title = "🌥️ 가벼운 우울";
     message = "잠시 멈추고 자신에게 다정해질 시간을 가져보세요.";
-    document.getElementById("result").classList.remove("long-message");
   } else if (score <= 19) {
     title = "☁️ 중간 정도의 우울감";
     message = "당신의 마음이 많이 지쳐있어요.<br>믿을 수 있는 사람과 대화를 나눠보세요.";
@@ -119,7 +117,6 @@ function renderResult() {
         한국생명의전화 1588-9191
       </div>
     `;
-    document.getElementById("result").classList.add("long-message");
   }
   } else {
     title = "💧 높은 우울감";
@@ -136,7 +133,6 @@ function renderResult() {
         망설이지 말고 연락하세요.<br>당신은 혼자가 아닙니다.
       </div>
     `;
-    document.getElementById("result").classList.add("long-message");
   }
 
   if (resultTitle) 
