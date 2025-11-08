@@ -358,7 +358,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;  /* 세로 위쪽 정렬 */
-  align-items: center;     
+  align-items: flex-start;     
   min-height: 70vh;
 
   text-align: center;
@@ -368,6 +368,11 @@ html, body {
   border-radius: 20px;
   box-shadow: 0 8px 15px rgba(0,0,0,0.1);
   background: rgba(255, 255, 255, 0.7);
+}
+
+#result-inner {
+  margin: auto 0;  /* 콘텐츠를 가운데에 유연하게 밀어내기 */
+  width: 100%;
 }
 
 #question.small-question {
