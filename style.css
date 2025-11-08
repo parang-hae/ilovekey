@@ -46,17 +46,19 @@ h1 {
 button {
   background-color: #ffd6e8;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 12px 25px;
   font-size: 1em;
   margin-top: 20px;
   cursor: pointer;
   transition: 0.3s;
   font-family: 'Cafe24Ssurround', sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
   background-color: #ffbad8;
+  transform: translateY(-3px);
 }
 
 .hidden {
