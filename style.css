@@ -351,7 +351,7 @@ html, body {
   width: 90%;
   max-width: 400px;
   margin: 60px auto 20px;       /* 위 60px, 아래 20px 여백 */
-  padding: 120px 20px 40px 20px; 
+  padding: 160px 20px 40px 20px; 
   box-sizing: border-box;
 
   display: flex;
