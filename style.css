@@ -383,7 +383,7 @@ html, body {
 /* 점수가 제목보다 위에 잘 보이도록 */
 #result h2 {
   font-size: 1.7rem;
-  margin-top: 40;
+  margin-top: 30;
 }
 
 #resultText {
