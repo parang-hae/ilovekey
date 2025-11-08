@@ -127,7 +127,6 @@ footer {
   transition: all 0.3s ease; 
   margin-top: 60px !important;
 }
-}
 
 #start-btn:hover {
   transform: translateY(-3px);      /* 살짝 떠오르는 효과 */
@@ -396,6 +395,7 @@ html, body {
 #message {
   margin-top: 0;
   margin-bottom: 10px; /* ③ message → credit 간 간격 */
+}
 
 #credit {
   margin-top: 0; /* 결과 메시지와의 간격 미세 조정 */
