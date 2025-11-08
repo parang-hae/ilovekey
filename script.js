@@ -108,7 +108,7 @@ function renderResult() {
     message = "잠시 멈추고 자신에게 다정해질 시간을 가져보세요.";
   } else if (score <= 19) {
     title = "☁️ 중간 정도의 우울감";
-    message = '
+    message = `
       당신의 마음이 많이 지쳐있어요.<br>
       믿을 수 있는 사람과 대화를 나눠보세요.        
       <div style="text-align: center; font-weight: bold; margin-top: 8px;">광주전남 전문기관</div>
