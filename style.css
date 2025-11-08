@@ -353,13 +353,14 @@ html, body {
   width: 90%;
   max-width: 400px;
   margin: 60px auto 20px;       /* 위 60px, 아래 20px 여백 */
-  padding: 120px 20px 40px 20px; 
+  padding: 100px 20px 40px 20px; 
   box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;  /* 세로 위쪽 정렬 */
-  align-items: center;          /* 가로 중앙 정렬 */
+  justify-content: center;  /* 세로 위쪽 정렬 */
+  align-items: center;     
+   min-height: 70vh;
 
   text-align: center;
   overflow-y: auto;
@@ -368,6 +369,11 @@ html, body {
   border-radius: 20px;
   box-shadow: 0 8px 15px rgba(0,0,0,0.1);
   background: rgba(255, 255, 255, 0.7);
+}
+
+#result.long-message {
+  justify-content: flex-start;  /* 내용이 많을 땐 위쪽 정렬 */
+  padding-top: 80px;            /* 긴 내용용 위 여백 */
 }
 
 #question.small-question {
