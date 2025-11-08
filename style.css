@@ -375,11 +375,6 @@ html, body {
   line-height: 1.5;
 }
 
-/* 결과 제목, 점수, 메시지 사이 간격 */
-#result h2, #result p {
-  margin-bottom: 10px !important;
-}
-
 /* 점수가 제목보다 위에 잘 보이도록 */
 #result h2 {
   font-size: 1.7rem;
@@ -391,13 +386,13 @@ html, body {
   font-size: 1.1rem;   /* 글자 크기 조절 */
   line-height: 1.6;    /* 줄 간격 */
   color: #0f456e;      /* 원하는 색상 */
-  margin-top: 6px;
-  margin-bottom: 10px; /* 아래 여백 */
+  margin-top: 0px;
+  margin-bottom: 8px; /* 아래 여백 */
   text-align: center;  /* 가운데 정렬 */
 }
 
 #credit {
-  margin-top: 0.8rem; /* 결과 메시지와의 간격 미세 조정 */
+  margin-top: 0px; /* 결과 메시지와의 간격 미세 조정 */
 }
 #credit .note { font-size: 0.8rem; color: #0f456e; text-align: left; }
 #credit .source { font-size: 0.65rem; color: #356b94; text-align: left; }
