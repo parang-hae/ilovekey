@@ -432,3 +432,56 @@ html, body {
   background: linear-gradient(135deg, #ffd6e8, #88cffc); /* 시작 버튼 호버와 동일 */
 }
 
+  /* ✅ 긴 메시지일 때 여백 늘리기 */
+#result.long-message {
+  justify-content: flex-start !important;
+  padding-top: 80px !important;
+}
+
+/* ✅ 짧은 메시지는 중앙 정렬 유지 */
+#result:not(.long-message) {
+  justify-content: center !important;
+}
+
+/* ✅ 타이틀-메시지-크레딧 간격 세밀 조정 */
+#result h2 {
+  margin-bottom: 6px !important;
+}
+
+#resultText {
+  margin-top: 4px !important;
+  margin-bottom: 10px !important;
+}
+
+#credit {
+  margin-top: 12px !important;
+}
+
+/* ✅ 크레딧 색상, 정렬 다시 복원 */
+#credit .note { font-size: 0.8rem !important; color: #0f456e !important; text-align: left !important; }
+#credit .source { font-size: 0.65rem !important; color: #356b94 !important; text-align: left !important; }
+#credit .team { font-size: 0.75rem !important; font-weight: bold !important; color: #356b94 !important; }
+
+/* ✅ 다시 해보기 버튼 복원 */
+#restart-btn {
+  color: #00205c !important;
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+  background: linear-gradient(135deg, #ffe3ee, #b7e5ff) !important;
+  border: none !important;
+  border-radius: 30px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding: 14px 0 !important;
+  width: 80% !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease !important;
+}
+
+#restart-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #ffd6e8, #88cffc) !important;
+}
+
