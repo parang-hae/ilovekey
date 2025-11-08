@@ -436,3 +436,8 @@ html, body {
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   background: linear-gradient(135deg, #ffd6e8, #88cffc); /* 시작 버튼 호버와 동일 */
 }
+/* --- message-크레딧 간격 강제 수정 --- */
+#credit {
+  margin-top: 10px !important; /* 원하는 만큼 줄이기 */
+}
+
