@@ -432,3 +432,14 @@ html, body {
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   background: linear-gradient(135deg, #ffd6e8, #88cffc); /* 시작 버튼 호버와 동일 */
 }
+
+/* ✅ 이걸 CSS 맨 아래에 추가 */
+#resultText,
+#message {
+  margin-bottom: 10px !important; /* 동일 간격, 강제 적용 */
+}
+
+#message div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
