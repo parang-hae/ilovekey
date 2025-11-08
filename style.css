@@ -485,3 +485,20 @@ html, body {
   background: linear-gradient(135deg, #ffd6e8, #88cffc) !important;
 }
 
+/* ✅ 버튼 클릭 방해 방지 */
+.container {
+  position: relative;
+  z-index: 10; /* 제일 위에 */
+  pointer-events: auto;
+}
+
+#quiz,
+#result {
+  z-index: 1;
+  pointer-events: none; /* 기본적으로 클릭 불가 */
+}
+
+#quiz:not(.hidden),
+#result:not(.hidden) {
+  pointer-events: auto; /* 보일 때만 클릭 가능 */
+}
