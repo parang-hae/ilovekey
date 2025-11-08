@@ -111,7 +111,16 @@ function renderResult() {
   } else if (score <= 19) {
     title = "☁️ 중간 정도의 우울감";
     message = "당신의 마음이 많이 지쳐있어요.<br>믿을 수 있는 사람과 대화를 나눠보세요.";
-    document.getElementById("result").classList.remove("long-message");
+      <div style="text-align: left;">
+        <div style="text-align: center; font-weight: bold; margin-top: 8px;">광주전남 전문기관</div>
+        자살예방상담 109<br>
+        정신건강상담 1577-0199<br>
+        청소년전화 1388<br>
+        한국생명의전화 1588-9191
+      </div>
+    `;
+    document.getElementById("result").classList.add("long-message");
+  }
   } else {
     title = "💧 높은 우울감";
     message = `
