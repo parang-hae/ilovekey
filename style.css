@@ -358,7 +358,7 @@ html, body {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* 세로 위쪽 정렬 */
+  justify-content: flex-start;  /* 세로 위쪽 정렬 */
   align-items: center;     
    min-height: 70vh;
 
