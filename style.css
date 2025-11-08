@@ -371,11 +371,6 @@ html, body {
   background: rgba(255, 255, 255, 0.7);
 }
 
-#result.long-message {
-  justify-content: flex-start;  /* 내용이 많을 땐 위쪽 정렬 */
-  padding-top: 80px;            /* 긴 내용용 위 여백 */
-}
-
 #question.small-question {
   font-size: 1.3rem;
   line-height: 1.5;
