@@ -65,7 +65,7 @@ function showQuestion() {
     const btn = document.createElement("button");
     btn.className = "option-btn";
     btn.textContent = opt.text;
-    btn.style.fontSize = "1.2rem"; // 선택지는 항상 1rem
+    btn.style.fontSize = "1.1rem"; // 선택지는 항상 1rem
     btn.addEventListener("click", () => selectOption(opt.value));
     optionsEl.appendChild(btn);
   });
