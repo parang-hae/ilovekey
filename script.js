@@ -119,7 +119,6 @@ function renderResult() {
         한국생명의전화 1588-9191
       </div>
     `;
-  }
   } else {
     title = "💧 높은 우울감";
     message = `
