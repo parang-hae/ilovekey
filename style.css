@@ -436,7 +436,7 @@ html, body {
 /* ✅ 이걸 CSS 맨 아래에 추가 */
 #resultText,
 #message {
-  margin-bottom: 10px !important; /* 동일 간격, 강제 적용 */
+  margin-bottom: 15px !important; /* 동일 간격, 강제 적용 */
 }
 
 #message div {
