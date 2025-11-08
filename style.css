@@ -120,6 +120,8 @@ footer {
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease; 
+  margin-top: 60px !important;
+}
 }
 
 #start-btn:hover {
@@ -290,11 +292,6 @@ html, body {
 }
 
 
-/* ✅ 시작 화면의 '시작하기' 버튼 위치를 조금 아래로 내림 */
-#start-btn {
-  margin-top: 50px !important;
-}
-
 #options {
   width: 100%;
   max-width: 360px; /* 버튼과 동일 폭 */
@@ -405,7 +402,7 @@ html, body {
   border-radius: 30px; 
   
   margin-top: 40px;        /* 결과 텍스트와 버튼 사이 간격 */
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 14px 0;     
   width: 80%;
   cursor: pointer;
