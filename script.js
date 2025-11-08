@@ -111,7 +111,7 @@ function renderResult() {
     message = `
       당신의 마음이 많이 지쳐있어요.<br>
       믿을 수 있는 사람과 대화를 나눠보세요.        
-      <div style="text-align: center; font-weight: bold; margin-top: 8px;">광주전남 전문기관</div>
+      <div style="text-align: center; font-weight: bold;">광주전남 전문기관</div>
       <div style="text-align: left;">  
         자살예방상담 109<br>
         정신건강상담 1577-0199<br>
@@ -124,7 +124,7 @@ function renderResult() {
     message = `
       <div style="text-align: center;">전문의와의 상담이 필요합니다.</div>
       <div style="text-align: left;">
-        <div style="text-align: center; font-weight: bold; margin-top: 8px;">광주전남 전문기관</div>
+        <div style="text-align: center; font-weight: bold;">광주전남 전문기관</div>
         자살예방상담 109<br>
         정신건강상담 1577-0199<br>
         청소년전화 1388<br>
