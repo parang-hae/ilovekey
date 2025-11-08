@@ -72,6 +72,9 @@ button:hover {
   margin: 10px auto;
   background-color: #B7E5FF;
   color: #013257;
+  border: none;
+  border-radius: 30px; /* 👈 시작 버튼과 같은 둥근 정도 */
+  cursor: pointer;
 }
 
 #options button:hover {
