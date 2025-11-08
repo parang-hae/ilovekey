@@ -411,6 +411,9 @@ html, body {
 #credit .source { font-size: 0.65rem; color: #356b94; text-align: left; }
 #credit .team { font-size: 0.75rem; font-weight: bold; color: #356b94; }
 
+#resultText { margin-bottom: 12px !important; }
+#credit     { margin-top: 12px !important; }
+
 #restart-btn {
   color: #00205c;
   font-size: 1.5em;                /* 시작 버튼과 동일 */
