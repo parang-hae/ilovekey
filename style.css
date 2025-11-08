@@ -387,7 +387,7 @@ html, body {
   line-height: 1.6;    /* 줄 간격 */
   color: #0f456e;      /* 원하는 색상 */
   margin-top: 0px;
-  margin-bottom: 15px; /* 아래 여백 */
+  margin-bottom: 10px; /* 아래 여백 */
   text-align: center;  /* 가운데 정렬 */
 }
 
