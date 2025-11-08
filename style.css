@@ -391,6 +391,12 @@ html, body {
   text-align: center;  /* 가운데 정렬 */
 }
 
+#resultText,
+#message {
+  margin-bottom: 10px; /* 동일 간격 */
+}
+
+
 /* ✅ message 영역 (JS로 들어오는 부분) */
 #message {
   margin-top: 0;
