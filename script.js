@@ -126,11 +126,11 @@ function renderResult() {
       <div style="text-align: center;">전문의와의 상담이 필요합니다.</div>
       <div style="text-align: left;">
         <div style="text-align: center; font-weight: bold; margin-top: 10px;">광주전남 전문기관</div>
-        광주광역 정신건강복지센터 062-600-1930<br>
-        전남광역 정신건강복지센터 061-350-1700<br>
+        광주광역 정신건강복지센터<br>062-600-1930<br>
+        전남광역 정신건강복지센터<br>061-350-1700<br>
         정신건강위기 상담전화 1577-0199 / 자살예방 상담전화 109<br>
         청소년전화 1388<br>
-        청소년 상담문자 1661-5004 / 카카오톡 채널 '다들어줄개'
+        청소년 상담문자 1661-5004 /<br>카카오톡 채널 '다들어줄개'
       </div>
       <div style="text-align: center; margin-top: 8px;">
         망설이지 말고 연락하세요.<br>당신은 혼자가 아닙니다.
