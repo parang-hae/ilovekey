@@ -113,8 +113,8 @@ function renderResult() {
       믿을 수 있는 사람과 대화를 나눠보세요.        
       <div style="text-align: center; font-weight: bold; margin-top: 10px;">광주전남 전문기관</div>
       <div style="text-align: left; font-size: 0.85rem; line-height: 1.4;">  
-        광주광역 정신건강복지센터<br>062-600-1930<br>
-        전남광역 정신건강복지센터<br>061-350-1700<br>
+        광주광역 정신건강복지센터 062-600-1930<br>
+        전남광역 정신건강복지센터 061-350-1700<br>
         정신건강위기 상담전화 1577-0199<br>
         자살예방 상담전화 109<br>
         청소년전화 1388<br>
@@ -129,8 +129,8 @@ function renderResult() {
       <div style="text-align: left;">
         <div style="text-align: center; font-weight: bold; margin-top: 10px;">광주전남 전문기관</div>
         <div style="font-size: 0.85rem; line-height: 1.4;">
-        광주광역 정신건강복지센터<br>062-600-1930<br>
-        전남광역 정신건강복지센터<br>061-350-1700<br>
+        광주광역 정신건강복지센터 062-600-1930<br>
+        전남광역 정신건강복지센터 061-350-1700<br>
         정신건강위기 상담전화 1577-0199<br>
         자살예방 상담전화 109<br>
         청소년전화 1388<br>
