@@ -323,7 +323,7 @@ html, body {
   margin: 8px auto 0;         /* auto로 수직 중앙 정렬 막기 */
   box-sizing: border-box;
   -webkit-appearance: none;
-  font-size: 16px;
+  font-size: 1.2rem;
   line-height: 1.4;
 }
 
