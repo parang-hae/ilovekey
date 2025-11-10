@@ -112,7 +112,7 @@ function renderResult() {
       당신의 마음이 많이 지쳐있어요.<br>
       믿을 수 있는 사람과 대화를 나눠보세요.        
       <div style="text-align: center; font-weight: bold; margin-top: 10px;">광주전남 전문기관</div>
-      <div style="text-align: left; font-size: 0.85rem; line-height: 1.4;">  
+      <div style="text-align: left; font-size: 0.9rem; line-height: 1.4;">  
         광주광역 정신건강복지센터 062-600-1930<br>
         전남광역 정신건강복지센터 061-350-1700<br>
         정신건강위기 상담전화 1577-0199<br>
@@ -128,7 +128,7 @@ function renderResult() {
       <div style="text-align: center;">전문의와의 상담이 필요합니다.</div>
       <div style="text-align: left;">
         <div style="text-align: center; font-weight: bold; margin-top: 10px;">광주전남 전문기관</div>
-        <div style="font-size: 0.85rem; line-height: 1.4;">
+        <div style="font-size: 0.9rem; line-height: 1.4;">
         광주광역 정신건강복지센터 062-600-1930<br>
         전남광역 정신건강복지센터 061-350-1700<br>
         정신건강위기 상담전화 1577-0199<br>
