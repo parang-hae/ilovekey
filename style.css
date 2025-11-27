@@ -450,15 +450,3 @@ html, body {
 #next-btn {
   font-size: 1.2rem !important;
 }
-
-.start-images {
-  display: flex;
-  justify-content: center;
-  gap: 20px;   /* 이미지 사이 간격 */
-  margin-bottom: 20px;
-}
-
-.start-img {
-  width: 120px;     /* 필요에 따라 조정 */
-  height: auto;
-}
