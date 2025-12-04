@@ -21,7 +21,7 @@ const options = [
 let current = 0;
 let score = 0;
 
-// DOM 요소 — id 이름이 HTML과 일치하는지 다시 한 번 확인하세요
+// DOM 요소
 const startBtn = document.getElementById("start-btn");   // HTML에 id="start-btn" 있어야 함
 const nextBtn = document.getElementById("next-btn");     // id="next-btn"
 const restartBtn = document.getElementById("restart-btn"); // id="restart-btn"
